@@ -1,0 +1,109 @@
+You are a senior computer expert, and now you are providing your solution for my request. 
+
+I would like to categorize the technology stacks related to the field of computer science according to specific classification principles, so that it is easier for me to understand the overall knowledge and identify any gaps. The following are the specific classification principles:
+```
+1. Divide all relevant technology stacks in the CS field into 4 major categories, with n subcategories under each major category. The depth of the classification hierarchy is limited to a maximum of three levels.
+2. The MECE principle (Mutually Exclusive Collectively Exhaustive) must be satisfied between each major category, as well as between each subcategory.
+3. There should be a certain logical or hierarchical relationship between the major categories, such as one category supporting or depending on another category, so that the categories can be linked together in some way.
+4. The overview of the entire technology stack should be available from these categories, so that everyone can quickly identify their knowledge gaps, strengths, and weaknesses. 
+
+```
+
+I currently have a first version of the classification. Could you please take a look and see if there are any problems? Do you think it should be placed in the following categories? Also, what do you think should be added?
+
+Please return the original markdown format as I need to copy it.
+
+Here is the first version of the technology architecture classification that I have organized:
+```
+## development process
+
+## Development Frameworks
+### Java
+- Spring
+- Spring Boot
+- Spring Cloud
+- Hibernate
+- MyBatis
+
+### Node.js
+- Express
+
+### Python
+- Django
+- Flask
+- Ruby on Rails
+
+### Frontend Frameworks
+- React
+- Angular
+- Vue.js
+
+### Tools
+- Maven
+- Git
+
+## Middleware
+### Service Middleware
+- Tomcat
+- Jetty
+- Undertow
+- Nginx
+- Apache
+
+### Message Middleware
+- Kafka
+- RabbitMQ
+- RocketMQ
+- ActiveMQ
+
+### Database Middleware
+- Connection Pool
+- ORM
+
+### Data Storage
+- Redis
+- MySQL
+- PostgreSQL
+- Oracle
+- MongoDB
+
+### Caching
+- Redis
+- Memcached
+
+### Monitoring Middleware
+- Prometheus
+- Grafana
+- ELK Stack
+- Zipkin
+- Jaeger
+
+### Security
+- OAuth
+- JWT
+- SSL
+- TLS
+
+### Testing
+- JUnit
+- Selenium
+- TestNG
+
+### Deployment
+- Jenkins
+- Ansible
+- Chef
+
+## Distributed Systems
+- Distributed Lock
+- Distributed Transaction
+
+## Service Mesh
+- Istio
+- Envoy
+- Linkerd
+
+## Cloud Native
+- Docker
+- Kubernetes
+```
